@@ -1,0 +1,67 @@
+
+/* 
+----01 TYPOGRAPHY SYSTEM
+- Font size in PX:
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 
+/ 44 / 52 / 62 / 74 / 86 / 98
+
+--- WHITE SPACE:
+2 / 4 / 8 / 12 / 16 / 24 / 32 
+/ 48 / 64 / 80 / 96 / 128
+
+
+- Font weights:
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line height: 
+Default: 1
+Paragraph default: 1.6
+
+- Letter spacing:
+
+--- 02 COLORS:
+
+- Primary: 
+- Tints: 
+- Shadows: 
+- Accents: 
+- Greys: #333, #eee,#555
+
+
+--- 03 SHADOWS:
+
+--- BORDER RADIUS:
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    color: #333;
+    background-color: #eee;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 120rem;
+}
+
+.container--big{
+    width: 140rem;
+}
