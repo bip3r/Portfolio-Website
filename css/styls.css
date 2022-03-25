@@ -30,7 +30,7 @@ NAVIGATION BAR
     display: flex;
     flex-direction: row;
     font-size: 1.6rem;
-    gap: 3.2rem;
+    gap: 4.8rem;
 }
 
 .navbar-item:link, .navbar-item:visited{
