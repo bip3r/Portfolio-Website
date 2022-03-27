@@ -24,9 +24,9 @@ Paragraph default: 1.6
 
 --- 02 COLORS:
 
-- Primary: 
-- Tints: 
-- Shadows: 
+- Primary: #087f5b
+- Tints: #c3fae8 ,#e6fcf5
+- Shadows: #033828 , #077252
 - Accents: 
 - Greys: #333, #eee,#555
 
@@ -46,14 +46,13 @@ Paragraph default: 1.6
 
 html {
     font-size: 62.5%;
-
 }
 
 body {
     font-family: sans-serif;
     line-height: 1;
     color: #333;
-    background-color: #eee;
+    background-color: #fff;
 }
 
 
@@ -65,3 +64,12 @@ body {
 .container--big{
     width: 140rem;
 }
+
+.btn:visited, .btn:link{
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1.6rem 3.2rem;
+    border-radius: 11px;
+}
+
