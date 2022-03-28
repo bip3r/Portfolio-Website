@@ -1,4 +1,3 @@
-
 /* 
 ----01 TYPOGRAPHY SYSTEM
 - Font size in PX:
@@ -25,8 +24,8 @@ Paragraph default: 1.6
 --- 02 COLORS:
 
 - Primary: #087f5b
-- Tints: #c3fae8 ,#e6fcf5
-- Shadows: #033828 , #077252
+- Tints: #c3fae8 ,#e6fcf5, #6bb29d
+- Shadows: #033324 , #077252, #066649
 - Accents: 
 - Greys: #333, #eee,#555
 
@@ -36,9 +35,7 @@ Paragraph default: 1.6
 --- BORDER RADIUS:
 */
 
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -55,17 +52,17 @@ body {
     background-color: #fff;
 }
 
-
-.container{
+.container {
     margin: 0 auto;
     width: 120rem;
 }
 
-.container--big{
+.container--big {
     width: 140rem;
 }
 
-.btn:visited, .btn:link{
+.btn:visited,
+.btn:link {
     display: block;
     font-size: 2rem;
     text-decoration: none;
@@ -73,3 +70,19 @@ body {
     border-radius: 11px;
 }
 
+.mark {
+    position: relative;
+    z-index: 0;
+}
+
+.mark::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 5%;
+    background-color: #6bb29d;
+    z-index: -1;
+}
