@@ -93,7 +93,7 @@ NAVIGATION BAR
 }
 
 .background-split {
-    background: linear-gradient(#fff, #e6fcf5 40%);
+    background: linear-gradient(#fff 30%, #e6fcf5);
 }
 
 .hero-heading {
