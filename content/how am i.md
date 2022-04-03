@@ -21,3 +21,10 @@ Email: ororsatti@gmail.com
 Phone +972528461007
 LinkedIn: https://www.linkedin.com/in/or-orsatti-1b5a4a185/
 Git: https://github.com/bip3r
+
+## traits:
+
+1. **human touch** - I'm a freelance developer working with a small team to give you the best experiance. Everything you need or want - you can talk to ME. No voice mail, no robot assistants and no support.
+2. **Down to earth pricing** - I belive that professional website designing should be available to everyone. No more for the skyrocketing prices big companies charge, I give opportunities to small businesses to thrive in the digital space without breaking the bank.
+3. **Unlimited revisions** - See something you dont like? the color is not in your taste? let me know! no more with geussing how it looks, and trying to test it your self. With me you can send me your changes, watch them, and send me more!
+4. **You own the rights** - I will write you the code, but you will own it. You paid for the product - you own the website, from the images to the last Javascript line.

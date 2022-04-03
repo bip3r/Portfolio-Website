@@ -160,7 +160,7 @@ NAVIGATION BAR
     flex-direction: column;
     width: 100%;
     background-color: #e6fcf5;
-    padding-top: 9.6rem;
+    padding: 9.6rem 0;
 }
 
 .project {
@@ -216,7 +216,7 @@ NAVIGATION BAR
 
 .profile-section {
     background: linear-gradient(#e6fcf5 0%, #fff 50%);
-    padding: 12.8rem 0;
+    padding: 9.6rem 0;
 }
 
 .profile-content {
@@ -273,6 +273,39 @@ NAVIGATION BAR
 .list-link-item:hover,
 .list-link-item:active {
     text-shadow: 0 0 1px black;
+}
+
+/* ///////////////////////
+    TRAITS SECTION
+///////////////////////
+*/
+
+.traits-section {
+    padding: 9.6rem 0;
+}
+
+.traits {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+}
+
+.trait-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.trait-desc-img {
+    width: 60%;
+    position: relative;
+}
+
+.trait {
+    background-color: #e6fcf5;
+    padding: 2.4rem;
+    border-radius: 11px;
 }
 
 /* ///////////////////////
