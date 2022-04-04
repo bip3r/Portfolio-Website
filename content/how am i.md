@@ -28,3 +28,29 @@ Git: https://github.com/bip3r
 2. **Down to earth pricing** - I belive that professional website designing should be available to everyone. No more for the skyrocketing prices big companies charge, I give opportunities to small businesses to thrive in the digital space without breaking the bank.
 3. **Unlimited revisions** - See something you dont like? the color is not in your taste? let me know! no more with geussing how it looks, and trying to test it your self. With me you can send me your changes, watch them, and send me more!
 4. **You own the rights** - I will write you the code, but you will own it. You paid for the product - you own the website, from the images to the last Javascript line.
+
+500$ small project:
+
+-   unlimited revisions
+-   maintaining for one month for no extra fees
+-   deployment fees are not included
+-   **will not** have responsive design
+-   assistance with deployment
+
+1000$ medium project:
+
+-   unlimited revisions
+-   maintaining for two month for no extra fees
+-   deployment fees are not included
+-   responsive design
+-   assistance with deployment
+
+2000$ big project:
+
+-   unlimited revisions
+-   maintaining for one month for no extra fees
+-   deployment fees are included
+-   have responsive design
+-   assistance with deployment
+
+contact for spacial requests

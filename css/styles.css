@@ -309,6 +309,128 @@ NAVIGATION BAR
 }
 
 /* ///////////////////////
+    PRICING SECTION
+///////////////////////
+*/
+
+.section-pricing {
+    /* background: linear-gradient(#fff, #e6fcf5 50%, #fff); */
+    background: linear-gradient(#fff, #e6fcf5);
+    margin-top: 9.6rem;
+    padding-bottom: 19.2rem;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-plan {
+    padding: 2.4rem;
+    border-radius: 9px;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0 10px 10px #03332449;
+}
+
+.pricing-plan--best {
+    background-color: #fff;
+    border: 2px solid #033324;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(-2%);
+}
+
+.pricing-plan--regular {
+    background-color: #033324;
+    color: #fff;
+    border: 2px solid #033324;
+}
+
+.pricing-plan--regular .pricing-btn {
+    background-color: #fff;
+    color: #033324;
+    font-weight: 700;
+}
+
+.pricing-plan--regular .plan-heading {
+    color: #c3fae8;
+}
+
+.best-tag {
+    position: absolute;
+    background-color: #ffe066;
+    top: 40px;
+    right: -50px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 20rem;
+}
+
+.plan-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-heading {
+    font-size: 1.6rem;
+    color: #087f5b;
+    margin-bottom: 3.2rem;
+}
+
+.price {
+    font-size: 4.8rem;
+    position: relative;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+}
+
+.price sup {
+    font-size: 1.6rem;
+    position: absolute;
+}
+
+.plan-traits {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3.2rem;
+}
+
+.plan-trait-item {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.plan-icon {
+    font-size: 2rem;
+}
+
+.pricing-btn {
+    background-color: #033324;
+    border: none;
+    padding: 1.6rem 4.8rem;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 3px 3px #077252;
+    justify-self: center;
+}
+
+.pricing-btn:hover {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+/* ///////////////////////
     FOOTER SECTION
 ///////////////////////
 */
@@ -321,6 +443,7 @@ footer {
     align-items: center;
     justify-items: center;
     position: relative;
+    background-color: #e6fcf5;
     /* background: linear-gradient(#fff, #e6fcf5); */
 }
 footer::before {
