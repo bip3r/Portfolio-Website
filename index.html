@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/styles.css" />
         <link rel="stylesheet" href="./css/general.css" />
+        <link rel="stylesheet" href="./css/queries.css" />
         <script src="https://unpkg.com/phosphor-icons@1.3.2"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,15 +30,23 @@
                     >or<sup class="icon-number-part">2</sup></a
                 >
                 <ul class="navbar-list">
-                    <li><a class="navbar-item" href="#">Projects</a></li>
-                    <li><a class="navbar-item" href="#">Who Am I?</a></li>
-                    <li><a class="navbar-item" href="#">Equipment</a></li>
+                    <li>
+                        <a class="navbar-item" href="#profile">Who Am I?</a>
+                    </li>
+                    <li>
+                        <a class="navbar-item" href="#projects">Projects</a>
+                    </li>
+                    <li><a class="navbar-item" href="#traits">My Traits</a></li>
+                    <li><a class="navbar-item" href="#pricing">Pricing</a></li>
+                    <li>
+                        <a class="navbar-item" href="#contact">Contant Me</a>
+                    </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="background-split">
-                <div class="container container--big hero-section">
+            <section class="section-hero">
+                <div class="container container--big hero-content">
                     <h1 class="hero-heading">Or Orsatti</h1>
                     <p class="hero-desc">
                         web designer and full-stack developer &dash;
@@ -54,7 +63,45 @@
                     />
                 </div>
             </section>
-            <section class="projects-section">
+
+            <section class="profile-section" id="profile">
+                <div class="container">
+                    <h2 class="pre-heading">who am i?</h2>
+                    <h1 class="heading">
+                        Hi Im Or, a programmer and web designer
+                    </h1>
+                    <div class="profile-content">
+                        <div class="profile-text">
+                            <h2 class="heading-secondery">About Me</h2>
+                            <p class="text">
+                                Hi im Or Antonio Orsatti, I'm 20. Im the
+                                firstborn of a familiy of 4. <br />
+                                I live in Gan Yavne, a town near Ashdod city.
+                                <br />
+                                I have served in combat engeneer devision in the
+                                IDF as a sargent. <br />
+                                I'm studying web development and backend
+                                development.
+                            </p>
+                            <h2 class="heading-secondery">My Skills</h2>
+                            <ul class="skills-list">
+                                <li class="skill">C\C++</li>
+                                <li class="skill">Python</li>
+                                <li class="skill">HTML\CSS</li>
+                                <li class="skill">JavaScript</li>
+                                <li class="skill">SQL</li>
+                                <li class="skill">React</li>
+                            </ul>
+                        </div>
+                        <img
+                            src="./img/profile-op-a.jpg"
+                            alt="A picture of me"
+                            class="profile-img"
+                        />
+                    </div>
+                </div>
+            </section>
+            <section class="projects-section" id="projects">
                 <div class="container">
                     <h2 class="pre-heading">my projects</h2>
                     <h1 class="heading">What I Designed over the years:</h1>
@@ -65,7 +112,7 @@
                             class="project-img"
                         />
                         <div class="project-desc">
-                            <h2 class="desc-heading mark">
+                            <h2 class="desc-heading">
                                 LeaseTruck - buy and sell used trucks
                             </h2>
                             <p class="text">
@@ -104,8 +151,8 @@
                             class="project-img"
                         />
                         <div class="project-desc">
-                            <h2 class="desc-heading mark">
-                                Omnifood - healthy meal delivered to you
+                            <h2 class="desc-heading">
+                                Omnifood - meal delivery system
                             </h2>
                             <p class="text">
                                 The smart 365-days-per-year food subscription
@@ -146,7 +193,7 @@
                             class="project-img"
                         />
                         <div class="project-desc">
-                            <h2 class="desc-heading mark">
+                            <h2 class="desc-heading">
                                 Build A Burger - design your OWN burger
                             </h2>
                             <p class="text">
@@ -181,78 +228,13 @@
                     </div>
                 </div>
             </section>
-            <section class="profile-section">
-                <div class="container">
-                    <h2 class="pre-heading">who am i?</h2>
-                    <h1 class="heading">
-                        Hi Im Or, a programmer and web designer
-                    </h1>
-                    <div class="profile-content grid grid--2-cols">
-                        <div class="profile-text">
-                            <h2 class="heading-secondery mark">About Me</h2>
-                            <p class="text">
-                                Hi im Or Orsatti, I'm 20. Im the firstborn of a
-                                familiy of 4. <br />
-                                I live in Gan Yavne, a town near Ashdod city.
-                                <br />
-                                I have served in combat engeneer devision in the
-                                IDF as a sargent. <br />
-                                I'm studying web development and backend
-                                development.
-                            </p>
-                            <h2 class="heading-secondery mark">My Skills</h2>
-                            <ul class="skills-list">
-                                <li class="skill">C\C++</li>
-                                <li class="skill">Python</li>
-                                <li class="skill">HTML\CSS</li>
-                                <li class="skill">JavaScript</li>
-                                <li class="skill">SQL</li>
-                                <li class="skill">React</li>
-                            </ul>
-                            <h2 class="heading-secondery mark">
-                                How To Reach Me
-                            </h2>
-                            <ul class="list-links">
-                                <li>
-                                    <a
-                                        href="https://github.com/bip3r"
-                                        class="list-link-item"
-                                        ><i class="ph-github-logo"></i>
-                                        GitHub</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        href="mailto:ororsatti@gmail.com"
-                                        class="list-link-item"
-                                        ><i class="ph-at"> </i> Email</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        class="list-link-item"
-                                        href="https://www.linkedin.com/in/or-orsatti-1b5a4a185/"
-                                        ><i class="ph-linkedin-logo"> </i>
-                                        LinkedIn</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
-                        <img
-                            src="./img/profile-op-a.jpg"
-                            alt="A picture of me"
-                            class="profile-img"
-                        />
-                    </div>
-                </div>
-            </section>
-            <section class="traits-section">
+            <section class="traits-section" id="traits">
                 <div class="container">
                     <h2 class="pre-heading">my traits</h2>
                     <h1 class="heading">What I Can Offer You?</h1>
                     <ul class="traits">
                         <li class="trait">
-                            <h2 class="heading-secondery mark">human Touch</h2>
+                            <h2 class="heading-secondery">human Touch</h2>
                             <div class="trait-desc">
                                 <img
                                     src="./svg/human_touch.svg"
@@ -269,7 +251,7 @@
                             </div>
                         </li>
                         <li class="trait">
-                            <h2 class="heading-secondery mark">
+                            <h2 class="heading-secondery">
                                 Down to Earth Pricing
                             </h2>
                             <div class="trait-desc">
@@ -289,7 +271,7 @@
                             </div>
                         </li>
                         <li class="trait">
-                            <h2 class="heading-secondery mark">
+                            <h2 class="heading-secondery">
                                 Unlimited Revisions
                             </h2>
                             <div class="trait-desc">
@@ -308,7 +290,7 @@
                             </div>
                         </li>
                         <li class="trait">
-                            <h2 class="heading-secondery mark">
+                            <h2 class="heading-secondery">
                                 You Own The Rights
                             </h2>
                             <div class="trait-desc">
@@ -328,7 +310,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="section-pricing">
+            <section class="section-pricing" id="pricing">
                 <div class="container container--big">
                     <div class="pricing-section-header container">
                         <h2 class="pre-heading">prices</h2>
@@ -434,6 +416,52 @@
                             </ul>
                             <button class="pricing-btn">Buy now</button>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-contact" id="contact">
+                <div class="container container--big">
+                    <h2 class="pre-heading">contact me</h2>
+                    <h1 class="heading">How Can I Help You?</h1>
+                    <div class="contact-container">
+                        <form action="#" class="contact-form">
+                            <div class="input">
+                                <label for="name">Name: </label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="John Smith"
+                                    required
+                                />
+                            </div>
+                            <div class="input">
+                                <label for="email">Email: </label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="johnsmith@gmail.com"
+                                    required
+                                />
+                            </div>
+
+                            <div class="input input--big">
+                                <label for="msg">Message: </label>
+                                <textarea
+                                    name="msg"
+                                    id="msg"
+                                    cols="30"
+                                    rows="10"
+                                    placeholder="John Smith"
+                                ></textarea>
+                            </div>
+
+                            <button class="btn-submit">Send</button>
+                        </form>
+                        <img
+                            src="./svg/contact.svg"
+                            alt="A Illustrated man holding a form"
+                            class="form-img"
+                        />
                     </div>
                 </div>
             </section>

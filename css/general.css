@@ -46,7 +46,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 1;
     color: #033324;
     background-color: #fff;
@@ -54,11 +54,11 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 120rem;
+    max-width: 120rem;
 }
 
 .container--big {
-    width: 140rem;
+    max-width: 140rem;
 }
 
 .btn:visited,
@@ -80,9 +80,9 @@ body {
     display: inline-block;
     position: absolute;
     width: 100%;
-    height: 20%;
+    height: 45%;
     left: 0;
-    bottom: 10%;
+    bottom: 20%;
     background-color: #6bb29d;
     z-index: -1;
 }

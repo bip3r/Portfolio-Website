@@ -1,0 +1,106 @@
+/* 1400 px */
+@media only screen and (max-width: 91em) {
+    .container {
+        max-width: 100rem;
+    }
+    .container--big {
+        max-width: 120rem;
+    }
+
+    .heading-secondery {
+        margin-bottom: 2rem;
+    }
+
+    .profile-content {
+        gap: 3.2rem;
+    }
+
+    .pricing-plans {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        row-gap: 4.8rem;
+    }
+
+    .pricing-plan--best {
+        grid-row: 1;
+        grid-column: 1/-1;
+    }
+}
+
+/* 
+    1200 px
+ */
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+/* 
+    1040 px
+*/
+@media only screen and (max-width: 65em) {
+    html {
+        font-size: 50%;
+    }
+
+    .hero-img {
+        width: 60%;
+    }
+
+    .profile-content {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-img {
+        width: 60%;
+        justify-self: start;
+    }
+
+    .profile-text {
+        display: grid;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .project-desc {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .desc-list {
+        display: none;
+    }
+
+    .project-img {
+        width: 70%;
+        align-self: center;
+    }
+
+    .traits {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .trait {
+        width: 70%;
+    }
+
+    .pricing-plans {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 
+    944 px
+*/
+@media only screen and (max-width: 59em) {
+    html {
+        font-size: 50%;
+    }
+}
