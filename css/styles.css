@@ -310,6 +310,8 @@ NAVIGATION BAR
 }
 
 .trait {
+    display: flex;
+    flex-direction: column;
     background-color: #e6fcf5;
     padding: 2.4rem;
     border-radius: 11px;

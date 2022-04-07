@@ -101,6 +101,10 @@
         width: 70%;
     }
 
+    .trait-desc {
+        align-items: center;
+    }
+
     .pricing-plans {
         grid-template-columns: 1fr;
     }
@@ -250,6 +254,18 @@
 @media (max-width: 34em) {
     html {
         font-size: 37.5%;
+    }
+
+    .heading {
+        font-size: 3.2rem;
+    }
+
+    .heading-secondery {
+        font-size: 2.4rem;
+    }
+
+    .desc-heading {
+        font-size: 2.4rem;
     }
 
     .container,
