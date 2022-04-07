@@ -114,6 +114,11 @@
         gap: 3.2rem;
         text-align: start;
     }
+
+    .best-tag {
+        top: 35px;
+        right: -35px;
+    }
 }
 
 /* 
@@ -236,6 +241,10 @@
     .hero-img {
         width: 70%;
     }
+    .best-tag {
+        top: 30px;
+        right: -35px;
+    }
 }
 
 @media (max-width: 34em) {
@@ -266,5 +275,9 @@
         transform: translate(-50%, -50%);
         border-radius: 50%;
         z-index: -1;
+    }
+    .best-tag {
+        top: 20px;
+        right: -35px;
     }
 }
