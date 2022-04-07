@@ -73,12 +73,21 @@ body {
 }
 
 .mark {
-    position: relative;
-    z-index: 0;
+    /* position: relative;
+    z-index: 0; */
+    border-radius: 0.8em 0.3em;
+    background: transparent;
+    background-image: linear-gradient(
+        to right,
+        #087f5b13,
+        #087f5bc2 4%,
+        #087f5b71
+    );
+    padding: 0.1em 0.4em;
 }
 
-.mark::after {
-    content: "";
+/* .mark::after {
+    /* content: "";
     display: inline-block;
     position: absolute;
     width: 100%;
@@ -86,8 +95,8 @@ body {
     left: 0;
     bottom: 20%;
     background-color: #6bb29dc4;
-    z-index: -1;
-}
+    z-index: -1; */
+} */
 .pre-heading {
     text-transform: uppercase;
     letter-spacing: 1.5px;
