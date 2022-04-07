@@ -43,6 +43,7 @@ Paragraph default: 1.6
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -50,6 +51,7 @@ body {
     line-height: 1;
     color: #033324;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 .container {
@@ -83,7 +85,7 @@ body {
     height: 45%;
     left: 0;
     bottom: 20%;
-    background-color: #6bb29d;
+    background-color: #6bb29dc4;
     z-index: -1;
 }
 .pre-heading {

@@ -77,6 +77,10 @@ NAVIGATION BAR
     transform: rotate(15deg);
 }
 
+.btn-mobile-nav {
+    display: none;
+}
+
 /* 
 ///////////////////////
     HERO SECTION
