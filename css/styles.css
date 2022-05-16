@@ -172,8 +172,11 @@ NAVIGATION BAR
     display: grid;
     grid-template-columns: 4fr 6fr;
     column-gap: 8rem;
-    margin-bottom: 9.6rem;
     color: #033324;
+}
+
+.project:not(:last-child) {
+    margin-bottom: 9.6rem;
 }
 
 .project-img {
